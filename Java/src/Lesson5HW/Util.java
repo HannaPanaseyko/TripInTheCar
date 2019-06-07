@@ -62,8 +62,6 @@ public class Util {
         int horsePow = engine.getHorsePower() ;
         double speedCount = (engine.getSpeed() *0.2) / 1000;
         double fuelSupplements = horsePow * speedCount;
-       // System.out.println("An expected fuel supplements for 10 km is " + fuelSupplements);
-       // System.out.println(fuelSupplements);
         return fuelSupplements;
     }
     public static void stationForABreak(Car car, Passenger passenger){
